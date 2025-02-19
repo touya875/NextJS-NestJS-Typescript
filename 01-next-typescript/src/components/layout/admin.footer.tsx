@@ -7,7 +7,7 @@ const AdminFooter = () => {
   return (
     <>
       <Footer style={{ textAlign: "center" }}>
-        Hỏi Dân IT ©{new Date().getFullYear()} Created by @touya
+        Touya ©{new Date().getFullYear()} Created by @touya
       </Footer>
     </>
   );
