@@ -140,7 +140,7 @@ export class UsersService {
     //send email
     this.mailerService.sendMail({
       to: user.email, // list of receivers
-      subject: 'Activate your account at @hoidanit', // Subject line
+      subject: 'Activate your account at @touya', // Subject line
       template: 'register',
       context: {
         name: user?.name ?? user.email,
@@ -202,7 +202,7 @@ export class UsersService {
     //send email
     this.mailerService.sendMail({
       to: user.email, // list of receivers
-      subject: 'Activate your account at @hoidanit', // Subject line
+      subject: 'Activate your account at @touya', // Subject line
       template: 'register',
       context: {
         name: user?.name ?? user.email,
